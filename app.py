@@ -65,3 +65,13 @@ Be specific and technical."""
                     
                 except Exception as e:
                     st.error(f"Error: {str(e)}")
+st.divider()
+st.markdown("---")
+st.markdown(
+    """
+    <div style='text-align: center; margin-top: 30px; color: #888; font-size: 12px;'>
+    Built with ❤️ by Yuvaraj Thatiparthi | Powered by Claude API
+    </div>
+    """,
+    unsafe_allow_html=True
+)
